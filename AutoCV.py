@@ -1,3 +1,4 @@
+
 Auto_CV= "Programa esperado para la utilizacion de actualizacion de CV"
 Nombre_Creador = "Realizado por Pre.Ing Saul Eduardo Hernadnez Rodriguez"
 Fecha_UltimaActualizacion = "10/10/2024"
@@ -11,4 +12,10 @@ def MensajeBienvenida():
     print (Licencia) 
     print (PasosProg)
 
-MensajeBienvenida()
+def PreguntasUsuario():
+    
+    Respuesta  = input ("Haz Realizado una certificacion en los ultimos dias?") 
+    print(Respuesta)
+    
+
+PreguntasUsuario()
